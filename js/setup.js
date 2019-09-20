@@ -27,8 +27,6 @@ for (var i = 0; i < 4; i++) {
 var userDialog = document.querySelector('.setup');
 userDialog.classList.remove('hidden');
 
-document.querySelector('.setup-similar').classList.remove('hidden');
-
 var similarListElement = document.querySelector('.setup-similar-list');
 var similarWizardTemplate = document.querySelector('#similar-wizard-template').content.querySelector('.setup-similar-item');
 
@@ -49,4 +47,4 @@ for (i = 0; i < wizards.length; i++) {
 
 similarListElement.appendChild(fragment);
 
-userDialog.querySelector('setup-similiar').classList.remove('hidden');
+userDialog.querySelector('.setup-similar').classList.remove('hidden');
